@@ -1,0 +1,280 @@
+{
+  "cameras": [
+    {
+      "name": "pasture",
+      "presets": [
+        "angel",
+        "barn",
+        "barn2",
+        "barn2hay",
+        "barn2r",
+        "barnfloor",
+        "brush",
+        "brushr",
+        "donksleep",
+        "down",
+        "feeder",
+        "feederstatus",
+        "feedstall",
+        "fencel",
+        "gate",
+        "ground",
+        "grove",
+        "grove2",
+        "grove2l",
+        "home",
+        "insidebarn",
+        "middle",
+        "pedrocorner",
+        "pen",
+        "penl",
+        "penr",
+        "pole",
+        "pool",
+        "pooll",
+        "poolr",
+        "purplebase",
+        "purplenest",
+        "right",
+        "roundpen",
+        "saltlick",
+        "sky",
+        "stompyfood",
+        "sunrise",
+        "water"
+      ]
+    },
+    {
+      "name": "wolf",
+      "presets": [
+        "akelafood",
+        "backleftcorner",
+        "belowplatform",
+        "bigrocks",
+        "center",
+        "den1",
+        "den1inside",
+        "den1l",
+        "den1r",
+        "den1t",
+        "den1tz",
+        "den2",
+        "den2b",
+        "den2gap",
+        "den2l",
+        "den2m",
+        "den2mz",
+        "den2r",
+        "den2rw",
+        "den2t",
+        "den2w",
+        "down",
+        "downright",
+        "farcorner",
+        "farfence",
+        "grass",
+        "grassl",
+        "home",
+        "insidedoor",
+        "left",
+        "leftcorner",
+        "log",
+        "neargrass",
+        "pond",
+        "pump",
+        "right",
+        "rightfence",
+        "river",
+        "shaft",
+        "switchden",
+        "switchgater",
+        "switchpen",
+        "switchpenl",
+        "switchpenr",
+        "switchramp",
+        "temp",
+        "tip",
+        "tipmo",
+        "tmp",
+        "trees",
+        "waterfall",
+        "wolfcornercam"
+      ]
+    },
+    {
+      "name": "wolfcorner",
+      "presets": [
+        "back",
+        "backfence",
+        "belowplatform",
+        "belowplatforml",
+        "belowplatformr",
+        "belowrampl",
+        "belowramplz",
+        "belowrampr",
+        "brushl",
+        "center",
+        "den1",
+        "den2",
+        "den2b",
+        "den2door",
+        "den2entrance",
+        "den2inside",
+        "den2l",
+        "den2m",
+        "den2shade",
+        "den2shadel",
+        "den2t",
+        "down",
+        "downleft",
+        "downright",
+        "grass",
+        "grassl",
+        "grassr",
+        "home",
+        "left",
+        "leftcorner",
+        "leftcornerw",
+        "leftfence",
+        "leftw",
+        "nearcorner",
+        "rampl",
+        "rampr",
+        "right",
+        "rightcorner",
+        "rightfence",
+        "river",
+        "switchpen",
+        "trees",
+        "water",
+        "wolfcam"
+      ]
+    },
+    {
+      "name": "wolfindoor",
+      "presets": [
+        "center",
+        "doors",
+        "down",
+        "downleft",
+        "downright",
+        "home",
+        "left",
+        "leftcorner",
+        "neardoor",
+        "platformcenter",
+        "platformleft",
+        "platformleftb",
+        "platformright",
+        "platformrightb",
+        "right",
+        "water"
+      ]
+    },
+    {
+      "name": "wolfswitch",
+      "presets": [
+        "back",
+        "den",
+        "denl",
+        "denr",
+        "dentop",
+        "down",
+        "downleft",
+        "downright",
+        "farleft",
+        "farright",
+        "home",
+        "insidedoor",
+        "middleleft",
+        "pond",
+        "water"
+      ]
+    },
+    {
+      "name": "wolfden",
+      "presets": [
+        "home",
+        "rightcorner"
+      ]
+    },
+    {
+      "name": "wolfden2",
+      "presets": [
+        "bottomright",
+        "home",
+        "left",
+        "leftcorner",
+        "rightcorner",
+        "tmp"
+      ]
+    },
+    {
+      "name": "chicken",
+      "presets": [
+        "backcenter",
+        "backlb",
+        "backleft",
+        "backright",
+        "barrels",
+        "center",
+        "down",
+        "downleft",
+        "downright",
+        "food",
+        "home",
+        "left",
+        "leftrock",
+        "nuggetsleep",
+        "oliversleep",
+        "ramp",
+        "right",
+        "rightcorner",
+        "water",
+        "window"
+      ]
+    },
+    {
+      "name": "chickenindoor",
+      "presets": [
+        "down",
+        "downl",
+        "downmiddle",
+        "downr",
+        "entryl",
+        "entryr",
+        "home",
+        "humandoor",
+        "nestboxes",
+        "perches",
+        "perchl",
+        "perchr",
+        "right"
+      ]
+    }
+  ],
+  "multicams": [
+    {
+      "name": "wolfmulti",
+      "primary": "wolf",
+      "pips": [
+        "wolfcorner"
+      ]
+    },
+    {
+      "name": "chinmulti",
+      "primary": "chin3",
+      "pips": [
+        "chin2",
+        "chin"
+      ]
+    },
+    {
+      "name": "wolfwolfin",
+      "primary": "wolf",
+      "pips": [
+        "wolfindoor"
+      ]
+    }
+  ]
+}
