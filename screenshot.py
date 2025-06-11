@@ -1,4 +1,5 @@
 import mss, os
+from PIL import Image
 
 def screenshot(item_name, update_type, camname):
     with mss.mss() as sct:
@@ -33,5 +34,11 @@ def screenshot(item_name, update_type, camname):
         output_path = os.path.join(folder_path, f'{item_name}.png')
         
         screenshot = sct.grab(region)
-        mss.tools.to_png(screenshot.rgb, screenshot.size, output=output_path)
+
+        if update_type == 'preset':
+            img = Image.frombytes('RGB', screenshot.size, screenshot.rgb)
+            resized_img = img.resize((320, 180), Image.LANCZOS)
+            resized_img.save(output_path)
+        elif update_type == 'multicam':
+            mss.tools.to_png(screenshot.rgb, screenshot.size, output=output_path)
         return output_path

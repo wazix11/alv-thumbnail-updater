@@ -66,8 +66,6 @@ async def send_message(message):
             print("Message sent!")
         except Exception as e:
             print(f"Error sending message: {e}")
-    # Send the message to the chat
-    # await chat.send_message(message)
 
 # this is where we set up the bot
 async def run():

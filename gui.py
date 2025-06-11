@@ -90,7 +90,7 @@ class PTZApp:
         self.image_frame = tk.Frame(self.main_frame)
         self.image_frame.grid(row=0, column=2, padx=5, pady=5, sticky='n')
 
-        self.canvas = tk.Canvas(self.image_frame, width=540, height=410)
+        self.canvas = tk.Canvas(self.image_frame, width=580, height=410)
         self.scrollbar = tk.Scrollbar(self.image_frame, orient="vertical", command=self.canvas.yview)
         self.scrollable_frame = tk.Frame(self.canvas)
 
@@ -218,7 +218,7 @@ class PTZApp:
         self.image_update_btn_frame = tk.Frame(self.main_frame)
         self.image_update_btn_frame.grid(row=1, column=3, padx=5, pady=5, sticky='n')
 
-        self.retake_btn = tk.Button(self.image_update_btn_frame, text='Retake', font=("Arial", 24, "bold"), command=self.retake_image)
+        self.retake_btn = tk.Button(self.image_update_btn_frame, text='Screenshot', font=("Arial", 24, "bold"), command=self.retake_image)
         self.retake_btn.pack(padx=5, pady=5)
 
         self.accept_btn = tk.Button(self.image_update_btn_frame, text='Accept', font=("Arial", 24, "bold"), command=self.accept_image)
@@ -235,6 +235,10 @@ class PTZApp:
         update_type = self.update_type
 
         self.update_title.config(text=f'Updating: {item}')
+        if self.update_type == 'preset':
+            self.run_preset_btn.config(state=tk.NORMAL)
+        elif self.update_type == 'multicam':
+            self.run_preset_btn.config(state=tk.DISABLED)
 
         current_img = self.get_current_image(item, update_type, camname)
         new_img = self.update_new_images.get(item) or Image.new("RGB", (320, 180), "gray")
