@@ -7,7 +7,7 @@ import asyncio
 import queue
 import os
 
-load_dotenv()
+load_dotenv(override=True)
 
 APP_ID = os.getenv('APP_ID')
 APP_SECRET = os.getenv('APP_SECRET')

@@ -20,12 +20,15 @@
         "fencel",
         "gate",
         "ground",
+        "groundr",
         "grove",
         "grove2",
         "grove2l",
+        "grove2r",
         "home",
         "insidebarn",
         "middle",
+        "mirrortemp",
         "pedrocorner",
         "pen",
         "penl",
@@ -35,6 +38,7 @@
         "pooll",
         "poolr",
         "purplebase",
+        "purplebasel",
         "purplenest",
         "right",
         "roundpen",
@@ -105,6 +109,7 @@
     {
       "name": "wolfcorner",
       "presets": [
+        "awasleeptmp",
         "back",
         "backfence",
         "belowplatform",
@@ -139,6 +144,7 @@
         "leftcornerw",
         "leftfence",
         "leftw",
+        "log",
         "nearcorner",
         "rampl",
         "rampr",
@@ -280,6 +286,7 @@
         "left",
         "leftfence",
         "lefttraining",
+        "mirrortmp",
         "platform",
         "platformbl",
         "platformbr",
@@ -394,6 +401,7 @@
         "bottomshelfl",
         "bottomshelfr",
         "domel",
+        "domelt",
         "domer",
         "domes",
         "door",
@@ -470,17 +478,21 @@
         "farrock",
         "home",
         "left",
+        "leftshelf",
         "water"
       ]
     },
     {
       "name": "patchy",
       "presets": [
+        "cave",
         "closebranches",
         "down",
         "farbranches",
         "groundm",
         "home",
+        "log",
+        "rightcorner",
         "water"
       ]
     },
@@ -496,6 +508,7 @@
         "log",
         "logz",
         "rocksandwich",
+        "tunnel",
         "water"
       ]
     },
@@ -529,6 +542,8 @@
         "downl",
         "downr",
         "farcorner",
+        "farcornerz",
+        "heatlamp",
         "home",
         "left",
         "leftcorner",
@@ -579,8 +594,78 @@
     {
       "name": "pasturefeeder",
       "presets": [
+        "feeder",
         "home",
         "stompy"
+      ]
+    },
+    {
+      "name": "bb",
+      "presets": [
+        "home"
+      ]
+    },
+    {
+      "name": "marty",
+      "presets": [
+        "down",
+        "downright",
+        "home",
+        "right"
+      ]
+    },
+    {
+      "name": "tarantula",
+      "presets": [
+        "eva",
+        "home",
+        "kiwi"
+      ]
+    },
+    {
+      "name": "tarantulaptz",
+      "presets": [
+        "eva",
+        "evabottomleft",
+        "evabottomright",
+        "evatopleft",
+        "evatopright",
+        "home",
+        "kiwi",
+        "kiwibottomleft",
+        "kiwibottomright",
+        "kiwitopleft",
+        "kiwitopright"
+      ]
+    },
+    {
+      "name": "garden",
+      "presets": [
+        "barn1r",
+        "barn2",
+        "bughotel",
+        "gate",
+        "home",
+        "pasturebrush",
+        "pasturegrove",
+        "pastureleft",
+        "pastureright",
+        "pasturewater",
+        "poolright",
+        "roundpen",
+        "tccenter",
+        "tcleft",
+        "tcright",
+        "tmp1",
+        "tmp2",
+        "tmp3"
+      ]
+    },
+    {
+      "name": "toastcrunch",
+      "presets": [
+        "home",
+        "right"
       ]
     }
   ],
