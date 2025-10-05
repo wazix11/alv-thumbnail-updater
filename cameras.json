@@ -8,12 +8,14 @@
         "barn2",
         "barn2hay",
         "barn2r",
+        "barn2w",
         "barn2z",
         "barnfloor",
         "brush",
         "brushr",
         "donksleep",
         "down",
+        "downleft",
         "feeder",
         "feederstatus",
         "feedstall",
@@ -25,6 +27,8 @@
         "grove2",
         "grove2l",
         "grove2r",
+        "grovefl",
+        "grovel",
         "home",
         "insidebarn",
         "middle",
@@ -58,6 +62,7 @@
         "bigrocks",
         "center",
         "den1",
+        "den1feed",
         "den1inside",
         "den1l",
         "den1r",
@@ -85,6 +90,7 @@
         "leftcorner",
         "log",
         "neargrass",
+        "neargrassr",
         "pond",
         "pump",
         "right",
@@ -154,6 +160,7 @@
         "river",
         "switchpen",
         "trees",
+        "treesl",
         "water",
         "wolfcam"
       ]
@@ -166,6 +173,7 @@
         "down",
         "downleft",
         "downright",
+        "fencel",
         "home",
         "left",
         "leftcorner",
@@ -194,6 +202,7 @@
         "farright",
         "home",
         "insidedoor",
+        "leftcorner",
         "middleleft",
         "pond",
         "water"
@@ -265,6 +274,7 @@
       "name": "fox",
       "presets": [
         "bed",
+        "bedmirrortemp",
         "behindtree",
         "belowplatform",
         "belowplatformz",
@@ -275,6 +285,7 @@
         "centerleft",
         "den",
         "denf",
+        "denfl",
         "denl",
         "denr",
         "down",
@@ -284,6 +295,7 @@
         "home",
         "insidedoor",
         "left",
+        "leftcorner",
         "leftfence",
         "lefttraining",
         "mirrortmp",
@@ -293,6 +305,7 @@
         "platformfl",
         "platformfr",
         "platforml",
+        "pool",
         "rampl",
         "rampt",
         "right",
@@ -301,10 +314,13 @@
         "shade",
         "table",
         "temp",
+        "this",
         "treeclimb",
         "treehouse",
+        "treehousefl",
         "treehousel",
-        "treehouser"
+        "treehouser",
+        "treer"
       ]
     },
     {
@@ -354,8 +370,11 @@
         "platform",
         "platforminside",
         "right",
+        "stick",
+        "stickl",
         "stickz",
         "table",
+        "temp",
         "training",
         "tree",
         "treeb",
@@ -375,7 +394,9 @@
         "center",
         "cornershelf",
         "domeleft",
+        "domeleftshelf",
         "domeright",
+        "domerighttop",
         "down",
         "flapl",
         "flaps",
@@ -398,24 +419,31 @@
     {
       "name": "marmout",
       "presets": [
+        "bottomshelfc",
         "bottomshelfl",
         "bottomshelfr",
         "domel",
         "domelt",
         "domer",
         "domes",
+        "domeswide",
         "door",
         "flapl",
         "flapr",
         "flaps",
         "frontdoor",
+        "frontropes",
+        "ground",
         "home",
         "hose",
         "ir",
         "left",
+        "leftcorner",
+        "leftpostfloor",
         "leftpostshelves",
         "leftpostshelvesl",
         "leftpostshelvest",
+        "noddle",
         "platformleft",
         "post2t",
         "ramp",
@@ -425,11 +453,13 @@
         "rightpostb",
         "rightscreen",
         "rightshelvesb",
+        "rightshelvesm",
         "rightshelvest",
         "rope",
         "table",
         "temp",
         "top",
+        "topshelfc",
         "topshelfl",
         "topshelfr"
       ]
@@ -473,6 +503,7 @@
       "name": "noodle",
       "presets": [
         "closebranch",
+        "closebranchr",
         "down",
         "farbranches",
         "farrock",
@@ -508,6 +539,7 @@
         "log",
         "logz",
         "rocksandwich",
+        "toastsleep",
         "tunnel",
         "water"
       ]
@@ -517,6 +549,8 @@
       "presets": [
         "crunchwide",
         "cubby",
+        "cubbyl",
+        "cubbyr",
         "down",
         "downcubby",
         "downl",
@@ -547,8 +581,10 @@
         "home",
         "left",
         "leftcorner",
+        "nearcorner",
         "right",
-        "rightcorner"
+        "rightcorner",
+        "rightcornerz"
       ]
     },
     {
@@ -575,6 +611,11 @@
     {
       "name": "hank",
       "presets": [
+        "backleft",
+        "backright",
+        "center",
+        "downleft",
+        "downright",
         "home",
         "water"
       ]
@@ -602,7 +643,12 @@
     {
       "name": "bb",
       "presets": [
-        "home"
+        "cave",
+        "down",
+        "downleft",
+        "home",
+        "leftcorner",
+        "spiderweb"
       ]
     },
     {
@@ -628,14 +674,17 @@
         "eva",
         "evabottomleft",
         "evabottomright",
+        "evatmp",
         "evatopleft",
         "evatopright",
         "home",
         "kiwi",
         "kiwibottomleft",
         "kiwibottomright",
+        "kiwitmp",
         "kiwitopleft",
-        "kiwitopright"
+        "kiwitopright",
+        "tmp"
       ]
     },
     {
@@ -644,15 +693,18 @@
         "barn1r",
         "barn2",
         "bughotel",
+        "bughotel2",
         "gate",
         "home",
         "pasturebrush",
         "pasturegrove",
         "pastureleft",
+        "pasturepole",
         "pastureright",
         "pasturewater",
         "poolright",
         "roundpen",
+        "sunrise",
         "tccenter",
         "tcleft",
         "tcright",
@@ -666,6 +718,27 @@
       "presets": [
         "home",
         "right"
+      ]
+    },
+    {
+      "name": "emu",
+      "presets": [
+        "foodleft",
+        "foodright",
+        "gate",
+        "gateleft",
+        "home",
+        "marmgate",
+        "marmwin3",
+        "marmwindows",
+        "pen1center",
+        "pen1centerright",
+        "pen1left",
+        "pen1right",
+        "pen1shelter",
+        "pen2left",
+        "pen2middleish",
+        "pen2right"
       ]
     }
   ],
